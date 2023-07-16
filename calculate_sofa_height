@@ -1,0 +1,15 @@
+def calculate_sofa_height(length, width, height):
+    sofa_height = height
+    return sofa_height
+
+def main():
+    print("Программа для вычисления высоты дивана")
+    length = float(input("Введите длину дивана (в сантиметрах): "))
+    width = float(input("Введите ширину дивана (в сантиметрах): "))
+    height = float(input("Введите высоту дивана (в сантиметрах): "))
+
+    sofa_height = calculate_sofa_height(length, width, height)
+    print("Высота дивана составляет", sofa_height, "сантиметров.")
+
+if __name__ == '__main__':
+    main()
