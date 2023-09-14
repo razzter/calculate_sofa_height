@@ -11,5 +11,6 @@ def main():
     sofa_height = calculate_sofa_height(length, width, height)
     print("Высота дивана составляет", sofa_height, "сантиметров.")
 
+
 if __name__ == '__main__':
     main()
